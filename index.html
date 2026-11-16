@@ -1,0 +1,121 @@
+
+//Ha-rsh Ahir
+//E-8-223501
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab X - 5 Problemas de JavaScript</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="Encabezado">
+        <h1>Lab X - 5 Problemas de JavaScript</h1>
+        <p>Ejercicios de operaciones con JavaScript</p>
+    </header>
+
+    <main class="Contenedor">
+
+        <!-- EJERCICIO 1 -->
+        <section class="tarjeta">
+            <h2>1. Suma de 3 números</h2>
+
+            <form id="form-suma">
+                <label>Primer número:</label>
+                <input type="number" id="num1" required>
+
+                <label>Segundo número:</label>
+                <input type="number" id="num2" required>
+
+                <label>Tercer número:</label>
+                <input type="number" id="num3" required>
+
+                <button type="submit">Calcular suma</button>
+            </form>
+
+            <p id="resultado-suma" class="resultado"></p>
+        </section>
+
+        <!-- EJERCICIO 2 -->
+        <section class="tarjeta">
+            <h2>2. Cuadrado de un número</h2>
+
+            <form id="form-cuadrado">
+                <label>Ingrese un número:</label>
+                <input type="number" id="num4" required>
+
+                <button type="submit">Calcular cuadrado</button>
+            </form>
+
+            <p id="resultado-cuadrado" class="resultado"></p>
+        </section>
+
+        <!-- EJERCICIO 3 -->
+        <section class="tarjeta">
+            <h2>3. Promedio de calificaciones</h2>
+
+            <form id="form-promedio">
+                <label>Primera calificación:</label>
+                <input type="number" id="cal1" required>
+
+                <label>Segunda calificación:</label>
+                <input type="number" id="cal2" required>
+
+                <label>Tercera calificación:</label>
+                <input type="number" id="cal3" required>
+
+                <button type="submit">Calcular promedio</button>
+            </form>
+
+            <p id="resultado-promedio" class="resultado"></p>
+        </section>
+
+        <!-- EJERCICIO 4 -->
+        <section class="tarjeta">
+            <h2>4. Metros a centímetros y kilómetros</h2>
+
+            <form id="form-metros">
+                <label>Ingrese la cantidad de metros:</label>
+                <input type="number" id="metros" min="0" required>
+
+                <button type="submit">Convertir</button>
+            </form>
+
+            <p id="resultado-metros" class="resultado"></p>
+        </section>
+
+        <!-- EJERCICIO 5 -->
+        <section class="tarjeta">
+            <h2>5. Comparación de dos valores</h2>
+
+            <form id="form-comparacion">
+                <label>Ingrese el primer valor:</label>
+                <input type="number" id="valor1" required>
+
+                <label>Ingrese el segundo valor:</label>
+                <input type="number" id="valor2" required>
+
+                <button type="submit">Comparar valores</button>
+            </form>
+
+            <p id="resultado-comparacion" class="resultado"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Laboratorio 3 - Programación Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+                                
